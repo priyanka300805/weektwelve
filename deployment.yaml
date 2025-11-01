@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+zzapiVersion: apps/v1
 kind: Deployment
 metadata:
   name: seleniumtestdemoapp-deployment
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: seleniumtestdemoapp
-          image: namitha30/sample2:mypythonflaskapp   # use your Docker Hub image
+          image: namitha30/sample2:seleniumtestdemoapp   # use your Docker Hub image
           ports:
             - containerPort: 5000
